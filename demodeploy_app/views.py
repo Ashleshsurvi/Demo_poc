@@ -26,4 +26,4 @@ class web(APIView):
     def post(self,request):
         return HttpResponse('post')
     def get(self,request):
-        return HttpResponse('getting the data')
+        return HttpResponse('updated response')
